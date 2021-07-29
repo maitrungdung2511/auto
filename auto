@@ -2,9 +2,9 @@ local keycodetext = "6f44379b7d9628a773b9b1439df93719"
 local keyotpmmo = "3IB86GF1YJOURLEA1626876628"
 local keysimfast = "GQXwMuTZ5IUtGqO8D9Qa"
 ---
-local very = 0 --- 1: có, 0: không
-local avt = 0 --- 1: có, 0: không
-local value = 2 --- 0: chạy số offline, 1: chỉ chạy 1 web simfast, 2: auto 2 web sdt ngoại
+local very = 1 --- 1: có, 0: không
+local avt = 1 --- 1: có, 0: không
+local value = 1 --- 0: chạy số offline, 1: chỉ chạy 1 web simfast, 2: auto 2 web sdt ngoại
 --------------------------------------------------------
 function tapimg2(img, sl, time, regon)
 	local img = findImage("/var/mobile/Library/AutoTouch/Scripts/facebook/img/"..img, sl, 0.99, regon)
